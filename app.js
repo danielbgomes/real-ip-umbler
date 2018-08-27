@@ -4,8 +4,6 @@ const   express = require('express');
 
 app.set('view engine', 'pug')
 
-app.set
-
 app.get('/', (req, res) => {
         
     let clientIp = req.headers['x-forwarded-for'];
